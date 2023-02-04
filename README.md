@@ -28,6 +28,7 @@ We can easily run the whole with only a single command:
 * `Before the spring boot 3 : @ConfigurationProperties(prefix = "spring.redis")`
 * `After the spring boot 3: @ConfigurationProperties(prefix = "spring.data.redis")`
 
+## Assets
 
 - **Redis GUI**
 
