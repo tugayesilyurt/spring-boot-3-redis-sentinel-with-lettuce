@@ -1,0 +1,18 @@
+server:
+  port: 2000
+  
+spring:
+  application:
+    name: spring-redis-sentinel
+  data:
+    redis:
+      password: redispassword
+      sentinel:
+        master: mymaster
+        nodes:
+          - localhost:26379
+          - localhost:26380
+          - localhost:26381
+      lettuce:
+        shutdown-timeout: 200ms
+       
